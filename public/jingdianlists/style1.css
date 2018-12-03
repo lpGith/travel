@@ -1,0 +1,156 @@
+
+/*===================================================================================*/
+/*  								12 - Footer                                       */
+/*===================================================================================*/
+
+#footer{
+	background:#222;
+}
+
+.footer{
+	text-align:center;
+	padding:20px 0;
+}
+
+.footer a{
+	cursor:pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.footer-links{
+	display:inline-block;
+	border:1px solid #FFA300;
+	border-radius:100px;
+	margin:0 3px;
+}
+
+.footer-links i{
+	font-size:25px;
+	color:#FFA300;
+	display:block;
+	width:35px;
+	height:35px;
+	line-height:38px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.footer-text{
+	margin:10px 0 0 0;
+	color:#FFF;
+	font-size:15px;
+	font-weight:300;
+}
+
+.footer-text span{
+	margin:0 5px;
+}
+
+.copyright{
+	text-transform:uppercase;
+	margin:4px 0 0;
+}
+
+.footer .footer-links:hover{
+	border:1px solid white;
+}
+
+.footer a:hover i{
+	color:white;
+}
+
+/**
+ +------------------------------------------------------------------------------
+ * 回到顶部
+ +------------------------------------------------------------------------------
+ * @ForMAT  2015/06/15
+ +------------------------------------------------------------------------------
+ */
+#top{position: absolute;}
+.izl-rmenu {
+	position: fixed;
+	left: 50%;
+	margin-left: 600px;
+	bottom: 10px;
+	padding-bottom: 73px;
+	background: url(../images/r_b.png) 0px bottom no-repeat;
+	z-index: 99999;
+}
+
+.izl-rmenu .btn {
+	width: 72px;
+	height: 73px;
+	margin-bottom: 1px;
+	cursor: pointer;
+	position: relative;
+}
+
+.izl-rmenu .btn-qq {
+	background: url(../images/r_qq.png) 0px 0px no-repeat;
+	background-color: #fff;
+}
+
+.izl-rmenu .btn-qq:hover {
+	background-color: #fff;
+}
+
+.izl-rmenu a.btn-qq,.izl-rmenu a.btn-qq:visited {
+	background: url(/images/qq_1.jpg) 0px 0px no-repeat;
+	background-color: #6da9de;
+	text-decoration: none;
+	
+}
+
+.izl-rmenu .btn-wx {
+	background: url(/images/weixin_1.jpg) 0px 0px no-repeat;
+	background-color: #78c340;
+}
+
+.izl-rmenu .btn-wx:hover {
+	background-color: #58a81c;
+}
+
+.izl-rmenu .btn-wx .pic {
+	position: absolute;
+	left: -160px;
+	top: 0px;
+	display: none;
+	width: 160px;
+	height: 160px;
+}
+
+.izl-rmenu .btn-phone {
+	background: url(/images/phone_1.jpg) -5px 1px no-repeat;
+	background-color: #fbb01f;
+}
+
+.izl-rmenu .btn-phone:hover {
+	background-color: #ff811b;
+}
+
+.izl-rmenu .btn-phone .phone {
+	background-color: #ff811b;
+	position: absolute;
+	width: 160px;
+	left: -160px;
+	top: 0px;
+	line-height: 73px;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	display: none;
+}
+
+.izl-rmenu .btn-top {
+	background: url(/images/up_1.jpg) -15px -10px no-repeat;
+	background-color: #666666;
+	display: none;
+}
+
+.izl-rmenu .btn-top:hover {
+	background-color: #444;
+}
+

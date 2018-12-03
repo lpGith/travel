@@ -1,0 +1,265 @@
+﻿.calendar1 {
+	border: 2px solid #67c1fe;
+	width: 636px;
+	background-color: #fff;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+}
+
+.calendar1 .calendar_num {
+	position: relative;
+	height: 28px;
+	background: #ecf4f8;
+	margin: 0;
+	padding: 0;
+}
+
+.calendar1 .calendar_num li.bold {
+	font-weight: bold;
+	
+}
+
+.calendar1 .calendar_num li {
+	float: left;
+	/*width: 89px;*/
+	height: 28px;
+	line-height: 26px;
+	text-align: center;
+	color: #aaaaaa;
+	border-left: 1px #eaeaea  solid;
+}
+
+/*.calendar1 .calendar_num li.picker_today {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	width: 65px;
+}*/
+
+.calendar1 ul, menu, dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+.calendar1 ul li, ol li {
+	list-style: none;
+}
+
+.calendar1 .calendar_left {
+	position: relative;
+	width: 636px;
+	height: 35px;
+	overflow: hidden;
+	text-align: center;
+	/*color: #1a477e;
+	font-weight: bold;*/
+
+	
+  /*margin: -2px 0 0 -2px;*/
+	background: #6bc2fa;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.calendar1 .pkg_double_month .date_text {
+	padding: 0;
+	height: 35px;
+	width: 240px;
+	position: relative;
+	margin: 0 auto;
+	/*margin-left: -20px;
+	margin-top: -20px;*/
+	font: 18px/35px Microsoft YaHei;
+}
+
+.calendar1 .calendar_left .border {
+	border-bottom: 1px solid #eaeaea;
+}
+
+.calendar1 p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.calendar1 .pkg_circle_bottom {
+	right: 10px;
+	top: 0px;
+	display: block;
+	position: absolute;
+	/*padding-top: 19px;*/
+	overflow: hidden;
+	text-decoration: none;
+	width: 60px;
+	height: 35px;
+	color: #FFF;
+	line-height: 35px;
+	
+
+}
+
+.calendar1 .pkg_circle_top {
+	left: 10px;
+	top: 0;
+	display: block;
+	position: absolute;
+	/*padding-top: 19px;*/
+	overflow: hidden;
+	text-decoration: none;
+	width: 60px;
+	height: 30px;
+	color: #FFF;
+}
+
+.calendar1 .pkg_circle_top,.calendar1 .pkg_circle_bottom {
+	
+}
+
+.calendar1 .pkg_circle_top:hover {
+	background-position: -40px -60px;
+}
+
+.calendar1 .pkg_circle_bottom:hover {
+	background-position: -40px -93px;
+}
+
+.calendar1 .pkg_circle_bottom_disable, .pkg_circle_bottom_disable:hover {
+	background-position: -80px -93px;
+	cursor: default;
+}
+
+/*.calendar1 .pkg_circle_bottom {
+	bottom: 20px;
+	background-position: 0 -93px;
+}*/
+
+.calendar1 .pkg_circle_bottom_disable, .pkg_circle_bottom_disable:hover {
+	background-position: -80px -93px;
+	cursor: default;
+}
+
+.calendar1 .calendar_right {
+	/*float: left;*/
+	width: 636px;
+	height: 258px;
+}
+
+.calendar1 table {
+	display: table;
+	border-collapse: collapse;
+	border-spacing: 2px;
+	border-color: gray;
+}
+
+.calendar1 tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.calendar1 tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+.calendar1 .calendar_right td {
+	height: 50px;
+	border: 1px solid #eaeaea;
+	border-width: 0 0 1px 1px;
+	vertical-align: top;
+	color: #aaa;
+	max-width: 45px;
+}
+
+.calendar1 .calendar_right .on {
+	cursor: pointer;
+}
+
+.calendar1 a {
+	color: #0065bb;
+	text-decoration: none;
+	outline: none;
+}
+
+.calendar1 .calendar_right a {
+	display: block;
+	width: 91px;
+	height: 45px;
+	color: #aaa;
+	/*padding: 4px 4px 0;*/
+}
+
+.calendar1 .calendar_right .on .date {
+	color: #333;
+}
+
+.calendar1 .calendar_right .on a:hover {
+	position: absolute;
+	border: 1px solid #febe32;
+	margin: -1px 0 0 -1px;
+	width: 88px;
+	height: 48px;
+	background-color: #fffbee;
+}
+
+.calendar1 .calendar_right .date {
+	display: block;
+	text-indent: 10px;
+}
+
+.calendar1 .calendar_right .today {
+	margin: -1px 0 0 -1px;
+	background-color: #fffbee;
+}
+
+.calendar1 .calendar_right .on .team {
+	color: #339900;
+}
+
+.calendar1 .calendar_right .team {
+	display: block;
+	text-align: right;
+	height: 16px;
+	line-height: 16px;
+}
+
+.calendar1 .calendar_right .on .calendar_price01 {
+	color: #ff6000;
+	text-align: right;
+	padding-left: 18px;
+}
+
+.calendar1 dfn {
+	font-style: normal;
+	font-size: 12px;
+	font-family: Arial !important;
+}
+
+.calendar1 .calendar_loding {
+	float: right;
+	width: 591px;
+	text-align: center;
+	padding: 147px 0;
+}
+
+.calendar1 .calendar_loding img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.calendar1 img, fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

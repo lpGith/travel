@@ -1,0 +1,44 @@
+/* app 端引流广告位 */
+.d_usercenter_appadv{
+	overflow: hidden;
+	margin: 0 auto;
+	width: inherit;
+}
+.d_usercenter_appadv.advs_800{ /* 我的爆款 */
+	width: 800px;
+}
+.d_usercenter_appadv.advs_950{
+	width: 950px;
+}
+.d_usercenter_appadv.advs_990{
+	width: 990px;
+}
+.d_usercenter_appadv.advs_1000{	/* 我的多宝 */
+	width: 1000px;
+}
+.d_usercenter_appadv a.a_appadv{
+	display: block;
+	width: inherit;
+}
+.d_usercenter_appadv a.a_appadv img{
+	width: 100%;
+}
+/* 二维码广告 */
+.d_usercenter_appadv_2D{
+	position: fixed;
+	top: 22%;
+	left: 50%;
+	display: block;
+	margin-left: 614px;
+	height: 220px;
+	z-index: 10000;
+}
+.d_usercenter_appadv_2D .a_appadv{
+	display: block;
+	width: 120px;
+	height: 220px;
+}
+.d_usercenter_appadv_2D .a_appadv img{
+	width: 120px;
+	height: 220px;
+}

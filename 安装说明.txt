@@ -1,0 +1,29 @@
+﻿
+安装说明；
+
+运行环境：WIN～LINUX+APACHE2.4+PHP7.0+MYSQL5.5+伪静态
+
+服务器要求：
+本系统Laravel框架对PHP版本和扩展有一定要求，有必要了解下这些以便确认自己的环境是否满足以下要求：
+PHP >= 7.0.12
+PHP OpenSSL 开启扩展
+PHP PDO 开启扩展
+PHP Mbstring 开启扩展
+PHP Tokenizer 开启扩展
+PHP XML 开启扩展
+满足以上要求之后，就可以开始安装调试Laravel网站了。
+
+1.恢复数据；
+
+2.配置数据库连接参数文件路径：.env
+
+3.网站运行主目录：\public\伪静态规则所在处；
+
+4.前台测试账号：admin 密码：iloveyou
+
+5.后台管理：http://域名/admin/ 用户名：admin@138.com 密码：admin
+
+6.更多功能请自行研究！
+
+
+/home/wwwroot/lchjq/blogblog/public

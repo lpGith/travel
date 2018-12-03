@@ -1,0 +1,109 @@
+#brandalslider {
+	width:950px;
+	height:420px;
+	position:relative;
+	margin:0px auto   ;
+	overflow: hidden;
+}
+#brandalslider .shadow {
+	position: absolute;
+	left:0px;
+	bottom:-11px
+}
+#ribbon {
+	position:absolute;
+	top:-3px;
+	left:-2px;
+	z-index:500;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	z-index:100;
+}
+.slides_container {
+	width:950px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+.slides_container div.slide {
+	width:950px;
+	height:420px;
+	display:block;
+}
+.pagination {
+	margin:18px auto 0 auto;
+	width:100px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 5000;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	/*background-image:url(../images/pagination.png);*/
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+	background: #FFF;
+	border-radius: 50px;
+}
+
+.pagination li.current a {
+	/*background-position:0 -12px*/
+	background: #ff2a00;
+
+}
+.caption{
+	z-index:1500;
+	position:absolute;
+	bottom:-35px;
+	eft:0;
+	height:30px;
+	padding-top:5px;
+	background:rgba(0,0,0,0.8);
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#DD000000,endColorStr=#DD000000); /*IE */
+	/*background:none;*/
+	width:950px;
+	font-size:14px;
+	line-height:24px;
+	color:#fff;
+	text-shadow:none;
+	text-align:center;
+}
+#slides .next,#slides .prev {
+	position:absolute;
+	top:130px;
+	left:-34px;
+	width:34px;
+	height:77px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:950px;
+}

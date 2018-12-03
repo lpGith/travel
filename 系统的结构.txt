@@ -1,0 +1,40 @@
+﻿
+		
+系统的结构：
+	 项目的目录结构:
+	----------
+		|--laravel 框架目录
+		|
+		|--public/index.php项目的前台入口
+		|
+		|--E:\wamp\www\laravel\app\Http\Controllers 项目的前台控制器目录名
+		|	|--Auth/   ------
+		|	|--Blog/   -------
+		|	|--goupiao/ ---------
+		|	|--jingdian/  ---------
+		|	|--jingdianpinglun  ---------	
+		|	|--Vita	  -------
+		|	|--Web	    ------
+		|	|--zhoubian	   ------
+		|--E:\wamp\www\laravel\resources\views	项目的前台视图目录名
+		|	|--base/   ---------
+		|	|--blog/   -------
+		|	|--goupiao/   ---------
+		|	|--jingdian/   ---------
+		|	|--jingping   ---------
+		|	|--vendor	   -------
+		|	|--Web	     ------
+		|	|--zhoubian	   ------
+		|   |--private   
+		|--E:\wamp\www\laravel\app\Http\Controllers\admin 项目的后台控制器入口文件
+		|
+		|--E:\wamp\www\laravel\resources\views\admin 项目后台视图目录名
+		|
+		|--Public/ 公共资源目录名
+		|
+		|--
+		|
+		|--
+		
+
+		
